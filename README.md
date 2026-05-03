@@ -1,5 +1,8 @@
 # Mini-projet Kafka - Pipeline de logs temps réel
 
+#Lien rapport (Google Drive) :
+https://drive.google.com/drive/folders/15fvWdc1XcAo9cvOJn95Hi7qP0lWOVrCI?usp=sharing
+
 ## Description
 Ce projet simule plusieurs caisses POS qui envoient des événements en temps réel vers Apache Kafka.
 
@@ -25,3 +28,5 @@ mvn exec:java "-Dexec.mainClass=tn.utm.kafka.ChiffreAffairesParVille"
 
 ### Lancer le détecteur
 mvn exec:java "-Dexec.mainClass=tn.utm.kafka.DetecteurAnomalies"
+
+
